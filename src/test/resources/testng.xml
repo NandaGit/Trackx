@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrackX.truelocate Suite">
+
+  <!-- <test name="TrackX.truelocate Creation Flow">
+    <classes>
+    
+     <class name="com.trackx.truelocate.flow.IMRegionCreateFlow"/>
+     <class name="com.trackx.truelocate.flow.FacilityCreateFlow"/>  
+     <class name="com.trackx.truelocate.flow.IMLocationListCreateFlow"/>   
+     <class name="com.trackx.truelocate.flow.IMItemClassCreateFlow"/> 
+     <class name="com.trackx.truelocate.flow.IMItemTypeCreateFlow"/>  
+     <class name="com.trackx.truelocate.flow.IMIdentifierCreateFlow"/>  
+     <class name="com.trackx.truelocate.flow.IMItemCreateFlow"/> 
+     <class name="com.trackx.truelocate.flow.IMProvisionCreateFlow"/> 
+              
+     </classes>
+    </test>  -->
+             
+<!--  <test name="TrackX.truelocate EditFlow">
+    <classes>       
+             
+     <class name="com.trackx.truelocate.flow.IMRegionEditFlow"/>   
+     <class name="com.trackx.truelocate.flow.FacilityEditFlow"/> 
+     <class name="com.trackx.truelocate.flow.IMItemClassEditFlow"/>  
+     <class name="com.trackx.truelocate.flow.IMIdentifierEditFlow"/> 
+     <class name="com.trackx.truelocate.flow.IMItemTypeEditFlow"/> 
+     <class name="com.trackx.truelocate.flow.IMLocationListEditFlow"/> 
+     <class name="com.trackx.truelocate.flow.IMItemEditFlow"/>  
+                 
+    </classes>
+    </test>  -->
+                 
+<!-- <test name="TrackX.truelocate DeleteFlow">
+    <classes>           
+                 
+     <class name="com.trackx.truelocate.flow.IMRegionDeleteFlow"/> 
+     <class name="com.trackx.truelocate.flow.FacilityDeleteFlow"/>  
+     <class name="com.trackx.truelocate.flow.IMLocationListDeleteFlow"/>   
+     <class name="com.trackx.truelocate.flow.IMItemClassDeleteFlow"/>  
+     <class name="com.trackx.truelocate.flow.IMIdentifierDeleteFlow"/>
+     <class name="com.trackx.truelocate.flow.IMItemTypeDeleteFlow"/>  
+      
+    </classes>
+    </test>   -->
+             
+     
+  <test name="TrackX.truelocate GlobalFilterFlow">
+    <classes>  
+    
+   <!--   <class name="com.trackx.truelocate.flow.RegionGlobalFilterFlow"/>  
+     <class name="com.trackx.truelocate.flow.FacilityGlobalFilterFlow"/>  
+     <class name="com.trackx.truelocate.flow.LocationListGlobalFilterFlow"/>  
+     <class name="com.trackx.truelocate.flow.ItemClassGlobalFilterFlow"/> 
+     <class name="com.trackx.truelocate.flow.ItemTypeGlobalFilterFlow"/> -->
+     <!-- <class name="com.trackx.truelocate.flow.IdentifierTypeGlobalFilterFlow"/> -->
+     <class name="com.trackx.truelocate.flow.ItemGlobalFilterFlow"/> 
+     <!-- <class name="com.trackx.truelocate.flow.provisionGlobalFilterFlow"/> -->
+     
+   <!--    <class name="com.trackx.truelocate.flow.FacilityAdvancedFilterFlow"/> 
+          <class name="com.trackx.truelocate.flow.RegionAdvancedFilterFlow"/>       
+           <class name="com.trackx.truelocate.flow.LocationListAdvancedFilterFlow"/>    
+              <class name="com.trackx.truelocate.flow.ProvisionAdvancedFilterFlow"/>  -->
+    </classes>
+    </test>    
+</suite>

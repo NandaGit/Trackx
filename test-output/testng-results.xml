@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Success : Element is  visible]]>
+    </line>
+    <line>
+      <![CDATA[Success : Element is  visible]]>
+    </line>
+    <line>
+      <![CDATA[Success : Element is  Clickable]]>
+    </line>
+    <line>
+      <![CDATA[Failed : Element is not visible]]>
+    </line>
+    <line>
+      <![CDATA[Failed : Element is not Clickable]]>
+    </line>
+  </reporter-output>
+  <suite name="TrackX.truelocate Suite" duration-ms="39669" started-at="2017-12-22T06:20:55Z" finished-at="2017-12-22T06:21:35Z">
+    <groups>
+    </groups>
+    <test name="TrackX.truelocate GlobalFilterFlow" duration-ms="39669" started-at="2017-12-22T06:20:55Z" finished-at="2017-12-22T06:21:35Z">
+      <class name="com.trackx.truelocate.flow.ItemGlobalFilterFlow">
+        <test-method status="PASS" signature="excelCreation()[pri:0, instance:com.trackx.truelocate.flow.ItemGlobalFilterFlow@581ac8a8]" name="excelCreation" is-config="true" duration-ms="111" started-at="2017-12-22T11:50:55Z" finished-at="2017-12-22T11:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelCreation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trackx.truelocate.flow.ItemGlobalFilterFlow@581ac8a8]" name="setUp" is-config="true" duration-ms="9621" started-at="2017-12-22T11:50:55Z" finished-at="2017-12-22T11:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userclickflow(java.lang.String, java.lang.String)[pri:0, instance:com.trackx.truelocate.flow.ItemGlobalFilterFlow@581ac8a8]" name="userclickflow" duration-ms="14226" started-at="2017-12-22T11:51:05Z" data-provider="getData" finished-at="2017-12-22T11:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rb.admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Success : Element is  visible]]>
+            </line>
+            <line>
+              <![CDATA[Success : Element is  visible]]>
+            </line>
+            <line>
+              <![CDATA[Success : Element is  Clickable]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userclickflow -->
+        <test-method status="PASS" signature="itemClassGlobalFilterFlow(java.lang.String)[pri:0, instance:com.trackx.truelocate.flow.ItemGlobalFilterFlow@581ac8a8]" name="itemClassGlobalFilterFlow" duration-ms="8812" started-at="2017-12-22T11:51:19Z" data-provider="filterData" finished-at="2017-12-22T11:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CSVITEMCODE1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Failed : Element is not visible]]>
+            </line>
+            <line>
+              <![CDATA[Failed : Element is not Clickable]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itemClassGlobalFilterFlow -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.trackx.truelocate.flow.ItemGlobalFilterFlow@581ac8a8]" name="quitDriver" is-config="true" duration-ms="6947" started-at="2017-12-22T11:51:28Z" finished-at="2017-12-22T11:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.trackx.truelocate.flow.ItemGlobalFilterFlow@581ac8a8]" name="suiteTearDown" is-config="true" duration-ms="113" started-at="2017-12-22T11:51:35Z" finished-at="2017-12-22T11:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.trackx.truelocate.flow.ItemGlobalFilterFlow -->
+    </test> <!-- TrackX.truelocate GlobalFilterFlow -->
+  </suite> <!-- TrackX.truelocate Suite -->
+</testng-results>
